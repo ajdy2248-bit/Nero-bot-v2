@@ -1,13 +1,16 @@
 {
   "antiInbox": false,
   "language": "ar",
-  "nickNameBot": "nero[🍓] 🖤",
+  "nickNameBot": "تحيا الجزائر 🇩🇿",
+  "botId": "61587934071021",
   "prefix": "/",
   "adminOnly": {
     "enable": false,
     "ignoreCommand": []
   },
-  "adminBot": [],
+  "adminBot": [
+    "61587008264131"
+  ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": []
