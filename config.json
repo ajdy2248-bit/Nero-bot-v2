@@ -16,8 +16,8 @@
     "whiteListIds": []
   },
   "facebookAccount": {
-    "email": "",
-    "password": "",
+    "email": "d95511229@gmail.com",
+    "password": "AMINOFF2010@",
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
@@ -130,4 +130,4 @@
     "autoMarkDelivery": false,
     "autoReconnect": false
   }
-}
+  }
