@@ -1,7 +1,7 @@
 name: Run Nero Bot
 
 on:
-  workflow_dispatch:  # يتيح التشغيل يدويًا
+  workflow_dispatch:  # تشغيل يدوي
 
 jobs:
   run-bot:
@@ -11,15 +11,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          python-version: "3.13"
+          node-version: '20'  # نسخة Node.js المطلوبة للبوت
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          npm install
 
       - name: Run bot
         run: |
-          python main.py
+          node index.js  # أو Nerov2.js حسب الملف الرئيسي
