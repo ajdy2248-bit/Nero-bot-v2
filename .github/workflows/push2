@@ -1,0 +1,28 @@
+name: Auto Run Nero Bot on Push
+
+on:
+  push:
+    branches:
+      - main  # أو الفرع الذي تعمل عليه
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install requests flask
+
+      - name: Run bot
+        run: |
+          python main.py
