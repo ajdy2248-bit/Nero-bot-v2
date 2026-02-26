@@ -1,15 +1,15 @@
 {
   "antiInbox": false,
   "language": "ar",
-  "nickNameBot": "تحيا الجزائر 🇩🇿",
-  "botId": "61587934071021",
+  "nickNameBot": "بوت امين 🖤🦅",
+  "botId": "61581314611319",
   "prefix": "/",
   "adminOnly": {
     "enable": false,
     "ignoreCommand": []
   },
   "adminBot": [
-    "61587008264131"
+    "61588566484282"
   ],
   "whiteListMode": {
     "enable": false,
@@ -130,4 +130,4 @@
     "autoMarkDelivery": false,
     "autoReconnect": false
   }
-  }
+}
