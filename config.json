@@ -2,7 +2,7 @@
   "antiInbox": false,
   "language": "ar",
   "nickNameBot": "بوت امين 🖤🦅",
-  "botId": "61581314611319",
+  "botId": "61574185406283",
   "prefix": "/",
   "adminOnly": {
     "enable": false,
@@ -130,4 +130,4 @@
     "autoMarkDelivery": false,
     "autoReconnect": false
   }
-}
+  }
